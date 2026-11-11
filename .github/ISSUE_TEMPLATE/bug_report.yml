@@ -1,0 +1,59 @@
+name: Bug report
+description: Something in Vanta doesn't work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open Settings → Providers\n2. …"
+  - type: dropdown
+    id: runtime
+    attributes:
+      label: Where does the model run?
+      options:
+        - My own server (Ollama, LM Studio, llama.cpp, vLLM, …)
+        - A cloud provider with my own key (OpenRouter, Anthropic, Groq, …)
+        - On this device (GGUF or MLX)
+        - Apple Intelligence
+        - Not about a model
+    validations:
+      required: true
+  - type: input
+    id: provider
+    attributes:
+      label: Server, provider or model
+      placeholder: e.g. Ollama 0.12 with qwen3:8b
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version
+      placeholder: e.g. iPhone 16 Pro, iOS 26.1
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Vanta version
+      description: Settings → About
+      placeholder: e.g. 3.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: shots
+    attributes:
+      label: Screenshots or screen recording
+  - type: checkboxes
+    id: secrets
+    attributes:
+      label: Privacy
+      options:
+        - label: I removed API keys, tokens and private addresses from this report.
+          required: true
