@@ -1,4 +1,6 @@
-# Ollama iPhone app: chat with your Ollama server from iPhone or iPad
+# Connect Ollama to your iPhone: OLLAMA_HOST, port 11434 and remote access
+
+Choosing an app? See [Vanta for Ollama](https://vantaclient.app/works-with/ollama/).
 
 Vanta connects to Ollama through its OpenAI-compatible API. Ollama runs the model on your computer or server; Vanta sends messages from your iPhone or iPad to that server. Use a locally hosted model if you want processing to stay on that machine.
 
@@ -6,7 +8,7 @@ Vanta connects to Ollama through its OpenAI-compatible API. Ollama runs the mode
 
 You can skip the manual steps below. In Add provider, choose **On my computer or server**, then **Ollama**, and Vanta finds Ollama on your Wi-Fi and fills in the address. If your iPhone can't reach it yet, Vanta shows you the switch to turn on: **Expose Ollama to the network** in Ollama's settings on a Mac or Windows PC, or one command on Linux. If Ollama has no models yet, Vanta downloads a first one onto your computer, then tests a reply. [How the guided setup works](https://vantaclient.app/features/guided-setup/).
 
-<img src="https://vantaclient.app/media/setup-ollama-network.webp" width="300" loading="lazy" alt="Vanta showing a drawing of Ollama's settings with Expose Ollama to the network switched on." />
+<img src="https://vantaclient.app/media/setup-ollama-network.webp" width="720" height="1564" loading="lazy" alt="Vanta showing a drawing of Ollama's settings with Expose Ollama to the network switched on." />
 
 Prefer to set it up yourself? The manual steps below work too.
 
@@ -35,7 +37,7 @@ Keep the phone and host on a trusted reachable network. Check the model installe
 
 Do not enter `/api/chat` as the base URL. Vanta uses the OpenAI-compatible chat endpoint under `/v1`. The normalizer adds `/v1` to an address with no path, but preserves a path you explicitly enter.
 
-<img src="https://vantaclient.app/media/providers.webp" width="300" loading="lazy" alt="Vanta's provider settings showing an Ollama base URL ending in port 11434 and /v1." />
+<img src="https://vantaclient.app/media/providers.webp" width="720" height="1564" loading="lazy" alt="Vanta's provider settings showing an Ollama base URL ending in port 11434 and /v1." />
 
 The address in this example belongs to the example server. Enter the address of your own host.
 

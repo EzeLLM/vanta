@@ -2,7 +2,7 @@
 
 On-device AI runs the model directly on your iPhone or iPad. Vanta supports downloaded GGUF and MLX models for that local inference, without a separate server or cloud API key. On eligible devices, it can also use Apple's available on-device system model. [Compare on-device and self-hosted AI](https://vantaclient.app/local-ai/) if you are deciding where to run your model.
 
-<img src="https://vantaclient.app/media/local-chat.webp" width="300" loading="lazy" alt="A Vanta on-device chat using a downloaded Llama 3.2 3B model." />
+<img src="https://vantaclient.app/media/local-chat.webp" width="720" height="1564" loading="lazy" alt="A Vanta on-device chat using a downloaded Llama 3.2 3B model." />
 
 ## Choose a runtime
 

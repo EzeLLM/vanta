@@ -6,7 +6,7 @@ Vanta is an iPhone and iPad app that connects to **Jan's Local API Server**. Jan
 
 In Add provider, choose **On my computer or server**, then **Jan**. Vanta looks for Jan on your Wi-Fi and fills in your computer's numeric address, which Jan accepts. If Jan isn't reachable yet, Vanta walks you through it: first a downloaded model, because Jan's server won't start without one, then the setting (**Settings › Local API Server › Server Host: 0.0.0.0 › Start Server**). [How the guided setup works](https://vantaclient.app/features/guided-setup/).
 
-<img src="https://vantaclient.app/media/setup-jan.webp" width="300" loading="lazy" alt="Vanta showing a drawing of Jan's Local API Server settings with Server Host set to 0.0.0.0." />
+<img src="https://vantaclient.app/media/setup-jan.webp" width="720" height="1564" loading="lazy" alt="Vanta showing a drawing of Jan's Local API Server settings with Server Host set to 0.0.0.0." />
 
 Prefer to set it up yourself? The manual steps below work too.
 
@@ -55,7 +55,7 @@ Chat works with any model Jan serves. Jan returns MCP tool calls to the client b
 
 Your conversations stay on your iPhone or iPad, whichever model answers: Vanta has no servers and no account, and requests go straight to the address you entered. Stuck? Write to the developer at [ezel964@icloud.com](mailto:ezel964@icloud.com) or use **Settings → About → Contact developer**.
 
-Also works with: [Ollama](https://vantaclient.app/docs/ollama/) · [LM Studio](https://vantaclient.app/docs/lm-studio/) · [vLLM](https://vantaclient.app/docs/vllm/) · [llama.cpp](https://vantaclient.app/works-with/llama-cpp/) · [LocalAI](https://vantaclient.app/works-with/localai/) · [Open WebUI](https://vantaclient.app/works-with/open-webui/) · [all setups](https://vantaclient.app/works-with/)
+Also works with: [Ollama](https://vantaclient.app/works-with/ollama/) · [LM Studio](https://vantaclient.app/works-with/lm-studio/) · [vLLM](https://vantaclient.app/docs/vllm/) · [llama.cpp](https://vantaclient.app/works-with/llama-cpp/) · [LocalAI](https://vantaclient.app/works-with/localai/) · [Open WebUI](https://vantaclient.app/works-with/open-webui/) · [all setups](https://vantaclient.app/works-with/)
 
 ---
 This page mirrors [https://vantaclient.app/works-with/jan/](https://vantaclient.app/works-with/jan/).

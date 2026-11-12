@@ -12,7 +12,7 @@ llama-server -hf ggml-org/gemma-3-1b-it-GGUF --host 0.0.0.0 --port 8080
 
 You can change the model before copying it. While the model downloads, Vanta keeps looking for the server on ports 8080 and 9931 for up to ten minutes and shows it as soon as it's ready. [How the guided setup works](https://vantaclient.app/features/guided-setup/).
 
-<img src="https://vantaclient.app/media/setup-llama-cpp.webp" width="300" loading="lazy" alt="Vanta showing a filled-in llama-server command with Copy and Share buttons." />
+<img src="https://vantaclient.app/media/setup-llama-cpp.webp" width="720" height="1564" loading="lazy" alt="Vanta showing a filled-in llama-server command with Copy and Share buttons." />
 
 Prefer to set it up yourself? The manual steps below work too.
 
@@ -63,7 +63,7 @@ Streaming works. Tool calling works with models whose chat template supports it,
 
 Your conversations stay on your iPhone or iPad, whichever model answers: Vanta has no servers and no account, and requests go straight to the address you entered. Stuck? Write to the developer at [ezel964@icloud.com](mailto:ezel964@icloud.com) or use **Settings → About → Contact developer**.
 
-Also works with: [Ollama](https://vantaclient.app/docs/ollama/) · [LM Studio](https://vantaclient.app/docs/lm-studio/) · [vLLM](https://vantaclient.app/docs/vllm/) · [llama.cpp](https://vantaclient.app/works-with/llama-cpp/) · [LocalAI](https://vantaclient.app/works-with/localai/) · [Open WebUI](https://vantaclient.app/works-with/open-webui/) · [all setups](https://vantaclient.app/works-with/)
+Also works with: [Ollama](https://vantaclient.app/works-with/ollama/) · [LM Studio](https://vantaclient.app/works-with/lm-studio/) · [vLLM](https://vantaclient.app/docs/vllm/) · [llama.cpp](https://vantaclient.app/works-with/llama-cpp/) · [LocalAI](https://vantaclient.app/works-with/localai/) · [Open WebUI](https://vantaclient.app/works-with/open-webui/) · [all setups](https://vantaclient.app/works-with/)
 
 ---
 This page mirrors [https://vantaclient.app/works-with/llama-cpp/](https://vantaclient.app/works-with/llama-cpp/).

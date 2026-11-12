@@ -1,4 +1,6 @@
-# LM Studio iPhone app: use your LM Studio models from iPhone or iPad
+# Connect LM Studio to your iPad or iPhone: Serve on Local Network, port 1234
+
+Choosing an app? See [Vanta for LM Studio](https://vantaclient.app/works-with/lm-studio/).
 
 Vanta can chat with a model running in LM Studio on your computer. LM Studio handles inference; your iPhone or iPad connects to its OpenAI-compatible API. This lets you use a model that does not fit on your phone.
 
@@ -6,7 +8,7 @@ Vanta can chat with a model running in LM Studio on your computer. LM Studio han
 
 In Add provider, choose **On my computer or server**, then **LM Studio**. Vanta finds LM Studio 0.4 or later on your Wi-Fi, fills in the address and asks for a key only if LM Studio requires one. If your iPhone can't reach it yet, Vanta shows where the setting is: **Developer › Start server**, then **Serve on Local Network**. If LM Studio has no models yet, Vanta downloads a small one onto your computer from Hugging Face, then tests a reply. [How the guided setup works](https://vantaclient.app/features/guided-setup/).
 
-<img src="https://vantaclient.app/media/setup-lm-studio.webp" width="300" loading="lazy" alt="Vanta showing a drawing of LM Studio's Developer page with the server running and Serve on Local Network on." />
+<img src="https://vantaclient.app/media/setup-lm-studio.webp" width="720" height="1564" loading="lazy" alt="Vanta showing a drawing of LM Studio's Developer page with the server running and Serve on Local Network on." />
 
 Prefer to set it up yourself? The manual steps below work too.
 

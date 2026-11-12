@@ -15,8 +15,8 @@ Any server or provider with a compatible chat API works the same way. Enter its 
 
 | Server | Base URL to enter | Key |
 | --- | --- | --- |
-| [Ollama](https://vantaclient.app/docs/ollama/) | `http://YOUR-COMPUTER:11434` | Not needed on your LAN |
-| [LM Studio](https://vantaclient.app/docs/lm-studio/) | `http://YOUR-COMPUTER:1234` | Optional |
+| [Ollama](https://vantaclient.app/works-with/ollama/) | `http://YOUR-COMPUTER:11434` | Not needed on your LAN |
+| [LM Studio](https://vantaclient.app/works-with/lm-studio/) | `http://YOUR-COMPUTER:1234` | Optional |
 | [vLLM](https://vantaclient.app/docs/vllm/) | `http://YOUR-SERVER:8000` | Optional |
 | [llama.cpp (llama-server)](https://vantaclient.app/works-with/llama-cpp/) | `http://YOUR-COMPUTER:9931` (8080 in Docker or older builds) | Optional |
 | [SGLang](https://vantaclient.app/works-with/sglang/) | `http://YOUR-SERVER:30000` | Optional |
